@@ -1,0 +1,122 @@
+body {
+    background-color: #F3E8FF;
+    color: #89375F;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #89375F;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #F3E8FF;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #89375F;
+  }
+  
+  nav a:hover {
+    color: #CE5959;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #banner {
+    background-image: url("cursos.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+  }
+  
+  #banner h2 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  #banner p {
+    font-size: 24px;
+  }
+  
+  #cursos {
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  #cursos h2 {
+    font-size: 36px;
+  }
+  
+  #cursos ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #cursos li {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #contato {
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  #contato h2 {
+    font-size: 36px;
+  }
+  
+  #contato p {
+    font-size: 24px;
+  }
+  
+  #contato a {
+    color: #CE5959;
+    text-decoration: none;
+  }
+  
+  #contato a:hover {
+    color: #89375F;
+  }
+  
+  footer {
+    background-color: #BACDDB;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  footer p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
